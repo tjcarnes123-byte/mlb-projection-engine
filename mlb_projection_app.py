@@ -39,7 +39,7 @@ TARGETS = {
 
 @st.cache_data
 def load_data():
-    batting = pd.read_csv("batting.csv")
+    batting = pd.read_csv("Batting.csv")
     people = pd.read_csv("People.csv")
 
     people["birthYear"] = pd.to_numeric(
